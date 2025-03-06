@@ -70,7 +70,7 @@ public class MainInterface extends javax.swing.JFrame {
             }
         });
 
-        jToggleButton2.setBackground(new java.awt.Color(37, 153, 173));
+        jToggleButton2.setBackground(new java.awt.Color(153, 255, 51));
         jToggleButton2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jToggleButton2.setText("CANCEL");
 
