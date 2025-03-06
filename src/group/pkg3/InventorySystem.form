@@ -98,11 +98,11 @@
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                       <Group type="102" attributes="0">
                                           <Component id="LOGIN" min="-2" pref="88" max="-2" attributes="0"/>
-                                          <EmptySpace pref="331" max="32767" attributes="0"/>
-                                          <Component id="EXIT" min="-2" pref="88" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="EXIT" min="-2" pref="291" max="-2" attributes="0"/>
                                       </Group>
                                       <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="JUser" max="32767" attributes="0"/>
+                                      <Component id="JUser" pref="507" max="32767" attributes="0"/>
                                       <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="JPassword" alignment="0" max="32767" attributes="0"/>
                                   </Group>
@@ -128,7 +128,7 @@
                           <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="LOGIN" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
-                              <Component id="EXIT" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                              <Component id="EXIT" alignment="3" min="-2" pref="113" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="284" max="32767" attributes="0"/>
                       </Group>
