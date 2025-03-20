@@ -58,8 +58,8 @@ public class InventorySystem {
                 int existingQuantity = rs.getInt("quantity");
                 int newQuantity = existingQuantity + item.getQuantity();
 
-                if (newQuantity < -808) {
-                    // If quantity falls below -808, remove the item
+                if (newQuantity < 0) {
+                    // If quantity falls below 0, remove the item
                     PreparedStatement deleteStmt = conn.prepareStatement("DELETE FROM items WHERE id = ?");
                     deleteStmt.setInt(1, existingId);
                     deleteStmt.executeUpdate();

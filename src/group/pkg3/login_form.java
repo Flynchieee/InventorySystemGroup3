@@ -177,7 +177,7 @@ public class login_form extends javax.swing.JFrame {
         if (base.login(a,b)){
             this.setVisible(false);
             MainInterface panel = new MainInterface();
-            panel.setBounds(this.getX(), this.getY(), 1421 , 750);
+            panel.setBounds(this.getX(), this.getY(), 1360 , 750);
             panel.setVisible(true);
             this.dispose();
         } else {
