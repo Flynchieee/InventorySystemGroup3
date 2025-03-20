@@ -11,7 +11,9 @@ CREATE TABLE items (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     quantity INT NOT NULL,
-    status VARCHAR(255) NOT NULL DEFAULT 'Available';
-);
+    status VARCHAR(255) NOT NULL
+    );
+
+
 
 INSERT INTO users (username, password) VALUES ('admin', '1234');
