@@ -1,0 +1,17 @@
+CREATE DATABASE inventory_db;
+USE inventory_db;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE items (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    quantity INT NOT NULL,
+    status VARCHAR(255) NOT NULL DEFAULT 'Available';
+);
+
+INSERT INTO users (username, password) VALUES ('admin', '1234');
